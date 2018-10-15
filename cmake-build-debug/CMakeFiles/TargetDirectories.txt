@@ -1,0 +1,3 @@
+/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/CMakeFiles/crowdcoin.dir

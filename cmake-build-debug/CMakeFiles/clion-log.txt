@@ -1,0 +1,4 @@
+/home/pater92/clion-2018.1.6/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pater92/Desktop/CrowdcoinBrainWallet
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug

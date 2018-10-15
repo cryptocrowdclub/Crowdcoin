@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="crowdcoin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crowdcoin">
+				<Option output="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/crowdcoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_WALLET=1"/>
+					<Add directory="/home/pater92/Desktop/CrowdcoinBrainWallet/src"/>
+					<Add directory="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/include"/>
+					<Add directory="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 crowdcoin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crowdcoin/fast">
+				<Option output="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/crowdcoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DENABLE_WALLET=1"/>
+					<Add directory="/home/pater92/Desktop/CrowdcoinBrainWallet/src"/>
+					<Add directory="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/include"/>
+					<Add directory="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 crowdcoin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/activemasternode.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/activemasternode.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/addrdb.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/addrdb.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/addressindex.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/addrman.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/addrman.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/alert.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/alert.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/amount.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/amount.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/arith_uint256.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/arith_uint256.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/base58.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/base58.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/Examples.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/base58.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/bench.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/bench.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/bench_crowdcoin.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/ccoins_caching.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/checkblock.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/checkqueue.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/coin_selection.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/crypto_hash.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/lockedpool.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/mempool_eviction.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/perf.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/perf.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/rollingbloom.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bench/string_cast.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bip39.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bip39.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bip39_english.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/blockencodings.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/blockencodings.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bloom.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/bloom.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/cachemap.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/cachemultimap.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chain.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chain.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chainparams.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chainparams.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chainparamsbase.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chainparamsbase.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/chainparamsseeds.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/checkpoints.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/checkpoints.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/checkqueue.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/clientversion.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/clientversion.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/coins.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/coins.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/byteswap.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/endian.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/glibc_compat.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/glibc_sanity.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/glibcxx_sanity.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/sanity.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compat/strnlen.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compressor.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/compressor.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/consensus/consensus.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/consensus/merkle.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/consensus/merkle.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/consensus/params.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/consensus/validation.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/core_io.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/core_memusage.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/core_read.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/core_write.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crowdcoin-cli.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crowdcoin-tx.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crowdcoind.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/aes.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/aes.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/aes_helper.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/blake.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/bmw.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/chacha20.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/chacha20.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/common.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/cubehash.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/echo.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/groestl.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/hmac_sha256.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/hmac_sha256.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/hmac_sha512.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/hmac_sha512.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/jh.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/keccak.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/luffa.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/md_helper.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/ripemd160.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/ripemd160.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha1.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha1.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha2.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha256.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha256.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha256_sse4.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha512.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sha512.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/shavite.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/simd.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/skein.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_blake.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_bmw.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_cubehash.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_echo.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_fugue.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_fugue.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_groestl.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_hamsi.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_hamsi.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_hamsi_helper.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_jh.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_keccak.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_luffa.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_sha2.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_sha2.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_sha512.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_shabal.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_shabal.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_shavite.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_simd.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_skein.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_types.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_whirlpool.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/sph_whirlpool.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/whirlpool.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/crypto/whirlpoolx.c">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/cuckoocache.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/dbwrapper.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/dbwrapper.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/dsnotificationinterface.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/dsnotificationinterface.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/flat-database.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-classes.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-classes.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-exceptions.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-object.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-object.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-validators.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-validators.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-vote.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-vote.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-votedb.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance-votedb.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/governance.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/hash.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/hash.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/hdchain.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/hdchain.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/httprpc.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/httprpc.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/httpserver.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/httpserver.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/indirectmap.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/init.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/init.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/instantx.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/instantx.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/keepass.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/keepass.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/key.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/key.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/keystore.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/keystore.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/autocompact_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/builder.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/builder.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/c.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/corruption_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/db_bench.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/db_impl.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/db_impl.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/db_iter.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/db_iter.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/db_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/dbformat.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/dbformat.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/dbformat_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/dumpfile.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/fault_injection_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/filename.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/filename.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/filename_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/leveldbutil.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/log_format.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/log_reader.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/log_reader.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/log_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/log_writer.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/log_writer.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/memtable.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/memtable.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/recovery_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/repair.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/skiplist.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/skiplist_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/snapshot.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/table_cache.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/table_cache.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/version_edit.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/version_edit.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/version_edit_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/version_set.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/version_set.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/version_set_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/write_batch.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/write_batch_internal.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/leveldb/db/write_batch_test.cc">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/limitedmap.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternode-payments.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternode-payments.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternode-sync.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternode-sync.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternode.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternode.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternodeconfig.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternodeconfig.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternodeman.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/masternodeman.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/memusage.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/merkleblock.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/merkleblock.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/messagesigner.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/messagesigner.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/miner.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/miner.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/net.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/net.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/net_processing.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/net_processing.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netaddress.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netaddress.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netbase.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netbase.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netfulfilledman.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netfulfilledman.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/netmessagemaker.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/noui.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/noui.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/policy/fees.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/policy/fees.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/policy/policy.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/policy/policy.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/policy/rbf.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/policy/rbf.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/pow.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/pow.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/prevector.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/primitives/block.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/primitives/block.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/primitives/transaction.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/primitives/transaction.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend-client.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend-client.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend-server.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend-server.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend-util.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend-util.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/privatesend.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/protocol.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/protocol.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/pubkey.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/pubkey.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/addressbookpage.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/addressbookpage.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/addresstablemodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/addresstablemodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/askpassphrasedialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/askpassphrasedialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bantablemodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bantablemodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoinaddressvalidator.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoinaddressvalidator.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoinamountfield.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoinamountfield.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoingui.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoingui.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoinunits.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/bitcoinunits.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/clientmodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/clientmodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/coincontroldialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/coincontroldialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/coincontroltreewidget.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/coincontroltreewidget.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/crowdcoin.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/crowdcoinstrings.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/csvmodelwriter.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/csvmodelwriter.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/darksendconfig.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/darksendconfig.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/editaddressdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/editaddressdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/guiconstants.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/guiutil.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/guiutil.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/intro.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/intro.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/macdockiconhandler.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/macnotificationhandler.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/masternodelist.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/masternodelist.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/modaloverlay.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/modaloverlay.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/networkstyle.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/networkstyle.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/notificator.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/notificator.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/openuridialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/openuridialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/optionsdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/optionsdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/optionsmodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/optionsmodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/overviewpage.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/overviewpage.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/paymentrequestplus.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/paymentrequestplus.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/paymentserver.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/paymentserver.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/peertablemodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/peertablemodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/platformstyle.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/platformstyle.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/qrdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/qrdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/qvalidatedlineedit.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/qvalidatedlineedit.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/qvaluecombobox.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/qvaluecombobox.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/receivecoinsdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/receivecoinsdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/receiverequestdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/receiverequestdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/recentrequeststablemodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/recentrequeststablemodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/rpcconsole.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/rpcconsole.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/sendcoinsdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/sendcoinsdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/sendcoinsentry.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/sendcoinsentry.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/signverifymessagedialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/signverifymessagedialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/splashscreen.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/splashscreen.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/compattests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/compattests.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/paymentrequestdata.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/paymentservertests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/paymentservertests.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/rpcnestedtests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/rpcnestedtests.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/test_main.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/trafficgraphdatatests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/trafficgraphdatatests.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/uritests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/test/uritests.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/trafficgraphdata.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/trafficgraphdata.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/trafficgraphwidget.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/trafficgraphwidget.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactiondesc.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactiondesc.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactiondescdialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactiondescdialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactionfilterproxy.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactionfilterproxy.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactionrecord.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactionrecord.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactiontablemodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactiontablemodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactionview.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/transactionview.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/utilitydialog.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/utilitydialog.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletframe.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletframe.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletmodel.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletmodel.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletmodeltransaction.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletmodeltransaction.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletview.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/walletview.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/winshutdownmonitor.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/qt/winshutdownmonitor.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/random.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/random.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rest.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/reverselock.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/blockchain.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/client.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/client.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/governance.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/masternode.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/mining.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/misc.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/net.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/protocol.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/protocol.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/rawtransaction.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/register.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/server.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/rpc/server.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/scheduler.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/scheduler.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/crowdcoinconsensus.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/crowdcoinconsensus.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/interpreter.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/interpreter.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/ismine.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/ismine.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/script.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/script.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/script_error.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/script_error.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/sigcache.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/sigcache.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/sign.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/sign.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/standard.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/script/standard.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/secp256k1/include/secp256k1.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/secp256k1/include/secp256k1_ecdh.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/secp256k1/include/secp256k1_recovery.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/sendalert.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/serialize.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/spentindex.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/spork.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/spork.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/streams.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/sync.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/sync.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/DoS_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/addrman_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/alert_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/allocator_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/amount_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/arith_uint256_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/base32_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/base58_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/base64_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/bip32_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/bip39_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/blockencodings_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/bloom_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/bswap_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/cachemap_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/cachemultimap_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/checkqueue_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/coins_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/compress_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/crypto_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/cuckoocache_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/dbwrapper_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/getarg_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/governance_validators_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/hash_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/key_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/limitedmap_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/main_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/mempool_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/merkle_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/miner_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/multisig_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/net_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/netbase_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/pmt_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/policyestimator_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/pow_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/prevector_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/raii_event_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/ratecheck_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/reverselock_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/rpc_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/sanity_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/scheduler_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/script_P2PKH_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/script_P2PK_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/script_P2SH_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/script_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/scriptnum10.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/scriptnum_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/serialize_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/sighash_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/sigopcount_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/skiplist_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/streams_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/subsidy_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/test_crowdcoin.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/test_crowdcoin.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/test_random.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/testutil.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/testutil.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/timedata_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/transaction_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/txvalidationcache_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/uint256_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/univalue_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/util_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/test/versionbits_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/threadinterrupt.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/threadinterrupt.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/threadsafety.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/timedata.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/timedata.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/tinyformat.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/torcontrol.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/torcontrol.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/txdb.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/txdb.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/txmempool.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/txmempool.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/ui_interface.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/ui_interface.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/uint256.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/uint256.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/undo.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/include/univalue.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/lib/univalue.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/lib/univalue_escapes.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/lib/univalue_read.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/lib/univalue_utffilter.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/univalue/lib/univalue_write.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/util.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/util.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/utilmoneystr.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/utilmoneystr.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/utilstrencodings.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/utilstrencodings.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/utiltime.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/utiltime.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/validation.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/validation.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/validationinterface.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/validationinterface.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/version.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/versionbits.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/versionbits.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/coincontrol.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/crypter.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/crypter.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/db.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/db.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/rpcdump.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/rpcwallet.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/rpcwallet.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/test/accounting_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/test/crypto_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/test/wallet_test_fixture.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/test/wallet_test_fixture.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/test/wallet_tests.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/wallet.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/wallet.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/walletdb.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/wallet/walletdb.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/warnings.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/warnings.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqabstractnotifier.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqabstractnotifier.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqconfig.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqnotificationinterface.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqnotificationinterface.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqpublishnotifier.cpp">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/src/zmq/zmqpublishnotifier.h">
+			<Option target="crowdcoin"/>
+		</Unit>
+		<Unit filename="/home/pater92/Desktop/CrowdcoinBrainWallet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
