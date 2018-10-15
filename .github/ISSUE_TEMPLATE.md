@@ -2,7 +2,7 @@
 
 This issue tracker is only for technical issues related to Crowdcoin Core.
 
-General Crowdcoin questions and/or support requests and are best directed to the [Dashpay Reddit](https://www.reddit.com/r/dashpay/).
+General Crowdcoin questions and/or support requests and are best directed to the [Crowdcoinpay Reddit](https://www.reddit.com/r/crowdcoinpay/).
 
 To report critical security issues, email infosec@crowdcoin.org instead of creating Github issues.
 

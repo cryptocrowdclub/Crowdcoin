@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.crowdcoin.dashd.plist
+SystemD: crowdcoind.service
+Upstart: crowdcoind.conf
+OpenRC:  crowdcoind.openrc
+         crowdcoind.openrcconf
+CentOS:  crowdcoind.init
+OS X:    org.crowdcoin.crowdcoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

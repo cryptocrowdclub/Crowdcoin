@@ -29,7 +29,7 @@ Build Crowdcoin Core
 
 1. Clone the Crowdcoin Core source code and cd into `crowdcoin`
 
-        git clone https://github.com/dashpay/crowdcoin
+        git clone https://github.com/crowdcoinpay/crowdcoin
         cd crowdcoin
 
 2.  Build Crowdcoin Core:
@@ -53,24 +53,24 @@ Build Crowdcoin Core
 Running
 -------
 
-Crowdcoin Core is now available at `./src/dashd`
+Crowdcoin Core is now available at `./src/crowdcoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=dashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DashCore/crowdcoin.conf"
+    echo -e "rpcuser=crowdcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/CrowdcoinCore/crowdcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/DashCore/crowdcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/CrowdcoinCore/crowdcoin.conf"
 
-The first time you run dashd, it will start downloading the blockchain. This process could take several hours.
+The first time you run crowdcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/DashCore/debug.log
+    tail -f $HOME/Library/Application\ Support/CrowdcoinCore/debug.log
 
 Other commands:
 -------
 
-    ./src/dashd -daemon # Starts the crowdcoin daemon.
+    ./src/crowdcoind -daemon # Starts the crowdcoin daemon.
     ./src/crowdcoin-cli --help # Outputs a list of command-line options.
     ./src/crowdcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 

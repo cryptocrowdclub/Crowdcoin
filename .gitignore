@@ -7,12 +7,12 @@ reset-files.bash
 
 *.exe
 src/crowdcoin
-src/dashd
+src/crowdcoind
 src/crowdcoin-cli
 src/crowdcoin-tx
-src/test/test_dash
-src/qt/test/test_dash-qt
-src/bench/bench_dash
+src/test/test_crowdcoin
+src/qt/test/test_crowdcoin-qt
+src/bench/bench_crowdcoin
 
 # autoreconf
 Makefile.in
@@ -99,7 +99,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_dash.coverage/
+test_crowdcoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -117,14 +117,14 @@ qa/cache/*
 .autotools
 /doc/doxygen/
 
-libdashconsensus.pc
+libcrowdcoinconsensus.pc
 contrib/devtools/split-debug.sh
 src/qt/crowdcoin-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
 crowdcoin-cli
-dashd
+crowdcoind
 crowdcoin-qt
 make
 

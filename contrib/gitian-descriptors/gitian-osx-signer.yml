@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/dashpay/crowdcoin-detached-sigs.git"
+- "url": "https://github.com/crowdcoinpay/crowdcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "crowdcoinbrain-osx-unsigned.tar.gz"

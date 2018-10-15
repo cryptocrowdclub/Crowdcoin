@@ -8,8 +8,8 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *dash_strings[] = {
-QT_TRANSLATE_NOOP("crowdcoin-core", "Dash Core"),
+static const char UNUSED *crowdcoin_strings[] = {
+QT_TRANSLATE_NOOP("crowdcoin-core", "Crowdcoin Core"),
 QT_TRANSLATE_NOOP("crowdcoin-core", "The %s developers"),
 QT_TRANSLATE_NOOP("crowdcoin-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
@@ -52,7 +52,7 @@ QT_TRANSLATE_NOOP("crowdcoin-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("crowdcoin-core", ""
-"Disable all Dash specific functionality (Masternodes, PrivateSend, "
+"Disable all Crowdcoin specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("crowdcoin-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"

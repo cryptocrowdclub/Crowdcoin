@@ -5,23 +5,23 @@
 if [ -d "/var/lib/crowdcoinbrain/.crowdcoinbrain" ]; then
 	BITCOIND_DEFAULT_DATADIR="/var/lib/crowdcoinbrain/.crowdcoinbrain"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/dashd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/crowdcoind"
 fi
 
 BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/crowdcoinbrain/crowdcoin.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/dashd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/dashd.pid}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/crowdcoind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/crowdcoind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
 BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-crowdcoinbrain}}
 BITCOIND_GROUP=${BITCOIND_GROUP:-crowdcoinbrain}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/dashd}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/crowdcoind}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
 name="Crowdcoin Core Daemon"
 description="Crowdcoin cryptocurrency P2P network daemon"
 
-command="/usr/bin/dashd"
+command="/usr/bin/crowdcoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run dashd."
+		eerror "ERROR: You must set a secure rpcpassword to run crowdcoind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

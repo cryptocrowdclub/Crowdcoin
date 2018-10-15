@@ -279,7 +279,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and crowdcoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Dash: URI)</translation>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a Crowdcoin: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -306,8 +306,8 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Zobraziť informácie o Dash Core</translation>
+        <source>Show information about Crowdcoin Core</source>
+        <translation>Zobraziť informácie o Crowdcoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -378,16 +378,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi Dash adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your Crowdcoin addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi Crowdcoin adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Overiť správu...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Dash adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Crowdcoin addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Crowdcoin adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -482,8 +482,8 @@
         <translation>&amp;Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Dash command-line options</source>
-        <translation>Ukázať %1 zoznam možných nastavení Dash pomocou príkazového riadku</translation>
+        <source>Show the %1 help message to get a list with possible Crowdcoin command-line options</source>
+        <translation>Ukázať %1 zoznam možných nastavení Crowdcoin pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -518,8 +518,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou Dash</numerusform><numerusform>%n aktívne spojenia so sieťou Dash</numerusform><numerusform>%n aktívnych spojení so sieťou Dash</numerusform></translation>
+        <source>%n active connection(s) to Crowdcoin network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou Crowdcoin</numerusform><numerusform>%n aktívne spojenia so sieťou Crowdcoin</numerusform><numerusform>%n aktívnych spojení so sieťou Crowdcoin</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -889,16 +889,16 @@
         <translation>Nastavenie PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Crowdcoin.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Crowdcoin.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
-        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Dash.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
+        <translation>PrivateSend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Crowdcoin.</translation>
     </message>
 </context>
 <context>
@@ -940,8 +940,8 @@
         <translation>Upraviť adresu pre odoslanie</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>Zadaná adresa "%1" nie je platná Dash adresa.</translation>
+        <source>The entered address "%1" is not a valid Crowdcoin address.</source>
+        <translation>Zadaná adresa "%1" nie je platná Crowdcoin adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1038,8 +1038,8 @@
         <translation>Informácie o PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 CRC, 0.1 CRC, 1 CRC and 10 CRC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Základy PrivateSend&lt;/h3&gt; PrivateSend Vám poskytuje skutočné finančné súkromie skrývaním pôvodu Vašich zdrojov. Všetky Dash vo vašej peňaženke pozostávajú z rôznych "vstupov", ktoré si môžete predstaviť ako rozdelené, which you can think of as separate, diskrétne mince.&lt;br&gt; PrivateSend používa zdokonalený proces pre miešanie Vašich vstupov so vstupmi iných ľudí bez toho. aby Vaše mince museli opustiť Vašu peňaženku. Počas cele doby máte kontrolu nad Vašimi peniazmi.&lt;hr&gt; &lt;b&gt;Proces PrivateSend funguje nasledovne:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend začne rozdelením Vašich transakčných vstupov na štandardné časti, takzvané denominácie. Tieto denominácie sú 0.01 CRC, 0.1 CRC, 1 CRC a 10 CRC -- v podstate niečo ako papierové peniaze, ktoré používate každý deň.&lt;/li&gt; &lt;li&gt;Vaša peňaženka potom pošle požiadavok špeciálne nastavenému softvérovému uzlu nazvaného "Masternode". Tieto Masternode sú potom informované, že máte záujem miešať určité denominácie. Masternode neobdrží žiadne informácie ktoré by Vás identifikovali, takže niekdy nevedia kto ste.&lt;/li&gt; &lt;li&gt;Keď ďalší dvaja ľudia pošlú podobnú správu hovoriacu o tom že chcú miešať rovnakú denomináciu, začne sa samotné miešanie. Masternode zamieša vstupy a povie peňaženkám všetkých troch používateľov, aby zaplatili teraz už zmiešané vstupy sami sebe. Vaša peňaženka zaplatí tieto denominácie priamo sebe, ale už na inú adresu (nazývanú "meniaca adresa").&lt;/li&gt; &lt;li&gt;Aby boli Vaše zdroje plne zakryté, Vaša peňaženka musí zopakovať tento proces niekoľko krát s každou denomináciou.  Vždy keď je tento proces dokončený, je nazvaný "kolo". Každé kolo PrivateSend exponenciálne sťažuje určiť odkiaľ pochádzajú Vaše zdroje.&lt;/li&gt; &lt;li&gt;Toto miešanie sa deje na pozadí bez nutnosti zásahov z Vašej strany. Keď si prajete uskutočniť transakciu, Vaše zdroje budú už anonýmne. Nie je nutné na nič čakať.&lt;/li&gt; &lt;/ol&gt; DÔLEŽITÉ:&lt;/b&gt; Vaša peňaženka obsahuje iba 1000 týchto "meniacich adries". Vždy keď prebehne miešanie, použije sa maximálne až 9 Vašich adries. To znamená, že týchto 1000 adries vystačí zhruba na 100 miešaní. Keď sa použije 900 adries, Vaša peňaženka musí vytvoriť viac adries. Toto je však možné iba vtedy, keď máte zapnuté automatické zálohovanie.&lt;br&gt; V dôsledku toho, používatelia ktorí majú zálohovanie vypnuté, budú mať vypnutý aj PrivateSend. &lt;hr&gt;Viac informácií nájdete na &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Crowdcoin in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 CRC, 0.1 CRC, 1 CRC and 10 CRC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Základy PrivateSend&lt;/h3&gt; PrivateSend Vám poskytuje skutočné finančné súkromie skrývaním pôvodu Vašich zdrojov. Všetky Dash vo vašej peňaženke pozostávajú z rôznych "vstupov", ktoré si môžete predstaviť ako rozdelené, which you can think of as separate, diskrétne mince.&lt;br&gt; PrivateSend používa zdokonalený proces pre miešanie Vašich vstupov so vstupmi iných ľudí bez toho. aby Vaše mince museli opustiť Vašu peňaženku. Počas cele doby máte kontrolu nad Vašimi peniazmi.&lt;hr&gt; &lt;b&gt;Proces PrivateSend funguje nasledovne:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend začne rozdelením Vašich transakčných vstupov na štandardné časti, takzvané denominácie. Tieto denominácie sú 0.01 CRC, 0.1 CRC, 1 CRC a 10 CRC -- v podstate niečo ako papierové peniaze, ktoré používate každý deň.&lt;/li&gt; &lt;li&gt;Vaša peňaženka potom pošle požiadavok špeciálne nastavenému softvérovému uzlu nazvaného "Masternode". Tieto Masternode sú potom informované, že máte záujem miešať určité denominácie. Masternode neobdrží žiadne informácie ktoré by Vás identifikovali, takže niekdy nevedia kto ste.&lt;/li&gt; &lt;li&gt;Keď ďalší dvaja ľudia pošlú podobnú správu hovoriacu o tom že chcú miešať rovnakú denomináciu, začne sa samotné miešanie. Masternode zamieša vstupy a povie peňaženkám všetkých troch používateľov, aby zaplatili teraz už zmiešané vstupy sami sebe. Vaša peňaženka zaplatí tieto denominácie priamo sebe, ale už na inú adresu (nazývanú "meniaca adresa").&lt;/li&gt; &lt;li&gt;Aby boli Vaše zdroje plne zakryté, Vaša peňaženka musí zopakovať tento proces niekoľko krát s každou denomináciou.  Vždy keď je tento proces dokončený, je nazvaný "kolo". Každé kolo PrivateSend exponenciálne sťažuje určiť odkiaľ pochádzajú Vaše zdroje.&lt;/li&gt; &lt;li&gt;Toto miešanie sa deje na pozadí bez nutnosti zásahov z Vašej strany. Keď si prajete uskutočniť transakciu, Vaše zdroje budú už anonýmne. Nie je nutné na nič čakať.&lt;/li&gt; &lt;/ol&gt; DÔLEŽITÉ:&lt;/b&gt; Vaša peňaženka obsahuje iba 1000 týchto "meniacich adries". Vždy keď prebehne miešanie, použije sa maximálne až 9 Vašich adries. To znamená, že týchto 1000 adries vystačí zhruba na 100 miešaní. Keď sa použije 900 adries, Vaša peňaženka musí vytvoriť viac adries. Toto je však možné iba vtedy, keď máte zapnuté automatické zálohovanie.&lt;br&gt; V dôsledku toho, používatelia ktorí majú zálohovanie vypnuté, budú mať vypnutý aj PrivateSend. &lt;hr&gt;Viac informácií nájdete na &lt;a href="https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1909,7 +1909,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Dash adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Crowdcoin adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>

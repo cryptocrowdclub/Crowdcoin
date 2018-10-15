@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/dashpay/crowdcoin.git"
+- "url": "https://github.com/crowdcoinpay/crowdcoin.git"
   "dir": "crowdcoin"
 files: []
 script: |

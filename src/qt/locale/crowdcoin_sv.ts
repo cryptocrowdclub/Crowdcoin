@@ -176,7 +176,7 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Crowdcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dashs from being stolen by malware infecting your computer.</source>
+        <source>Crowdcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your crowdcoins from being stolen by malware infecting your computer.</source>
         <translation>Crowdcoin kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Crowdcoin stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
@@ -1436,7 +1436,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Open the Crowdcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Dashs avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <translation>Öppna Crowdcoins avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1508,7 +1508,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Welcome to the Crowdcoin RPC console.</source>
-        <translation>Välkommen till Dashs RPC-konsol.</translation>
+        <translation>Välkommen till Crowdcoins RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>

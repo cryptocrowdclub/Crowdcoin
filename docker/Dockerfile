@@ -1,6 +1,6 @@
 FROM debian:stretch
 LABEL maintainer="Crowdcoin Developers <dev@crowdcoin.org>"
-LABEL description="Dockerised DashCore, built from Travis"
+LABEL description="Dockerised CrowdcoinCore, built from Travis"
 
 RUN apt-get update && apt-get -y upgrade && apt-get clean && rm -fr /var/cache/apt/*
 

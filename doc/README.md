@@ -12,7 +12,7 @@ The following are some helpful notes on how to run Crowdcoin on your native plat
 Unpack the files into a directory and run:
 
 - `bin/crowdcoin-qt` (GUI) or
-- `bin/dashd` (headless)
+- `bin/crowdcoind` (headless)
 
 ### Windows
 
@@ -24,9 +24,9 @@ Drag Crowdcoin-Qt to your applications folder, and then run Crowdcoin-Qt.
 
 ### Need Help?
 
-* See the [Crowdcoin documentation](https://dashpay.atlassian.net/wiki/display/DOC)
+* See the [Crowdcoin documentation](https://crowdcoinpay.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [Crowdcoin Nation Discord](http://dashchat.org)
+* Ask for help on [Crowdcoin Nation Discord](http://crowdcoinchat.org)
 * Ask for help on the [Crowdcoin Forum](https://crowdcoin.org/forum)
 
 Building
@@ -58,7 +58,7 @@ The Crowdcoin Core repo's [root README](/README.md) contains relevant informatio
 
 ### Resources
 * Discuss on the [Crowdcoin Forum](https://crowdcoin.org/forum), in the Development & Technical Discussion board.
-* Discuss on [Crowdcoin Nation Discord](http://dashchat.org)
+* Discuss on [Crowdcoin Nation Discord](http://crowdcoinchat.org)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

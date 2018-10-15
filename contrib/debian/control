@@ -27,10 +27,10 @@ Build-Depends: debhelper,
  libzmq3-dev
 Standards-Version: 3.9.2
 Homepage: https://www.crowdcoin.org/
-Vcs-Git: git://github.com/dashpay/crowdcoin.git
-Vcs-Browser: https://github.com/dashpay/crowdcoin
+Vcs-Git: git://github.com/crowdcoinpay/crowdcoin.git
+Vcs-Browser: https://github.com/crowdcoinpay/crowdcoin
 
-Package: dashd
+Package: crowdcoind
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -40,7 +40,7 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. Crowdcoin Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, dashd, and the CLI tool
+ This package provides the daemon, crowdcoind, and the CLI tool
  crowdcoin-cli to interact with the daemon.
 
 Package: crowdcoin-qt

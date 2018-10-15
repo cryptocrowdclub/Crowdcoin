@@ -17,7 +17,7 @@ packages:
 - "binutils-gold"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/dashpay/crowdcoin.git"
+- "url": "https://github.com/crowdcoinpay/crowdcoin.git"
   "dir": "crowdcoin"
 files:
 - "raspberrypi-tools.tar.gz"

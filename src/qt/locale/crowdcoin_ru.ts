@@ -306,8 +306,8 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Показать информацию о Dash Core</translation>
+        <source>Show information about Crowdcoin Core</source>
+        <translation>Показать информацию о Crowdcoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -378,16 +378,16 @@
         <translation>П&amp;одписать сообщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Подписать сообщения вашими адресами Dash, чтобы доказать, что вы ими владеете</translation>
+        <source>Sign messages with your Crowdcoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашими адресами Crowdcoin, чтобы доказать, что вы ими владеете</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>П&amp;роверить сообщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами Dash</translation>
+        <source>Verify messages to ensure they were signed with specified Crowdcoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами Crowdcoin</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -482,7 +482,7 @@
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Dash command-line options</source>
+        <source>Show the %1 help message to get a list with possible Crowdcoin command-line options</source>
         <translation>Показать справку по %1 со списком возможных параметров командной строки</translation>
     </message>
     <message>
@@ -518,8 +518,8 @@
         <translation>Панель вкладок</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n активное соединение с сетью Dash</numerusform><numerusform>%n активных соединения с сетью Dash</numerusform><numerusform>%n активных соединений с сетью Dash</numerusform><numerusform>%n активных соединений с сетью Dash</numerusform></translation>
+        <source>%n active connection(s) to Crowdcoin network</source>
+        <translation><numerusform>%n активное соединение с сетью Crowdcoin</numerusform><numerusform>%n активных соединения с сетью Crowdcoin</numerusform><numerusform>%n активных соединений с сетью Crowdcoin</numerusform><numerusform>%n активных соединений с сетью Crowdcoin</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -889,15 +889,15 @@
         <translation>Настройки PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Dash's configuration screen.</source>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
         <translation>PrivateSend успешно установлен в режим базовой приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Dash's configuration screen.</source>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
         <translation>PrivateSend успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Dash's configuration screen.</source>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
         <translation>PrivateSend успешно установлен в режим максимальной приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
 </context>
@@ -940,8 +940,8 @@
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>Введённый адрес "%1" не является правильным адресом Dash.</translation>
+        <source>The entered address "%1" is not a valid Crowdcoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным адресом Crowdcoin.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1038,8 +1038,8 @@
         <translation>Информация о PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 CRC, 0.1 CRC, 1 CRC and 10 CRC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Основы PrivateSend&lt;/h3&gt;PrivateSend позволяет Вам получить настоящую финансовую конфиденциальность за счет скрытия источников Ваших средств. Все Dash в  Вашем кошельке состоят из различных ""входов", Вы можете думать о них как об отдельных монетах.&lt;br&gt;PrivateSend использует инновационный процесс для перемешивания Ваших входов со входами еще двоих человек, но при этом Ваши монеты никогда не покидают Ваш кошелек. Вы сохраняете контроль над Вашими деньгами на протяжении всего времени.&lt;hr&gt; &lt;b&gt;PrivateSend работает так:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend начинается с разбиения Ваших входов транзакций на стандартные номиналы. Такими номиналами являются 0.01 CRC, 0.1 CRC, 1 CRC и 10 CRC -- что-то вроде купюр, которыми вы пользуетесь каждый день.&lt;/li&gt; &lt;li&gt;Ваш кошелек затем отправляет запросы к особым образом настроенным сетевым узлам, называемым "мастернодами". Эти мастерноды знают только то, что Вы хотите перемешать определенные номиналы. Никакой идентифицирующей информации мастернодам не отправляется, так что они не знают "кто" Вы конкретно.&lt;/li&gt; &lt;li&gt;Сессия перемешивания начинается тогда, когда еще двое человек отправляют схожее сообщение, подтверждающее, что они хотят перемешать точно такой же номинал. Мастернода перемешивает входы и просит кошельки всех пользователей осуществить платежи по ним. Ваш кошелек осуществляет выплату самому себе, но на другой адрес (тоже из вашего кошелька).&lt;/li&gt; &lt;li&gt;Для скрытия Ваших средств кошелек должен повторить этот процесс несколько раз с каждым номиналом. Каждый раз, когда такой процесс завершается, называется "раундом". С каждым раундом PrivateSend становится экспоненциально сложнее определить откуда поступили средства.&lt;/li&gt; &lt;li&gt;Процесс перемешивания выполняется в фоне, без участия пользователя. Когда Вы захотите провести транзакцию, средства уже будут анонимизированы. Дополнительно ждать не требуется.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Ваш кошелек содержит 1000 адресов. Каждое перемешивание использует до 9 из этих адресов. Это означает, что 1000 адресов хватит примерно на 100 перемешиваний. Когда 900 адресов будут уже использованы, Ваш кошелек должен создать новые адреса. Однако, он может сделать это, только если у Вас включены автоматические резервные копии.&lt;br&gt;Соответственно, пользователям с отключенным резервным копированием PrivateSend не доступен. &lt;hr&gt;Дополнительная информация доступна по ссылке &lt;a href="https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Crowdcoin in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 CRC, 0.1 CRC, 1 CRC and 10 CRC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Основы PrivateSend&lt;/h3&gt;PrivateSend позволяет Вам получить настоящую финансовую конфиденциальность за счет скрытия источников Ваших средств. Все Dash в  Вашем кошельке состоят из различных ""входов", Вы можете думать о них как об отдельных монетах.&lt;br&gt;PrivateSend использует инновационный процесс для перемешивания Ваших входов со входами еще двоих человек, но при этом Ваши монеты никогда не покидают Ваш кошелек. Вы сохраняете контроль над Вашими деньгами на протяжении всего времени.&lt;hr&gt; &lt;b&gt;PrivateSend работает так:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend начинается с разбиения Ваших входов транзакций на стандартные номиналы. Такими номиналами являются 0.01 CRC, 0.1 CRC, 1 CRC и 10 CRC -- что-то вроде купюр, которыми вы пользуетесь каждый день.&lt;/li&gt; &lt;li&gt;Ваш кошелек затем отправляет запросы к особым образом настроенным сетевым узлам, называемым "мастернодами". Эти мастерноды знают только то, что Вы хотите перемешать определенные номиналы. Никакой идентифицирующей информации мастернодам не отправляется, так что они не знают "кто" Вы конкретно.&lt;/li&gt; &lt;li&gt;Сессия перемешивания начинается тогда, когда еще двое человек отправляют схожее сообщение, подтверждающее, что они хотят перемешать точно такой же номинал. Мастернода перемешивает входы и просит кошельки всех пользователей осуществить платежи по ним. Ваш кошелек осуществляет выплату самому себе, но на другой адрес (тоже из вашего кошелька).&lt;/li&gt; &lt;li&gt;Для скрытия Ваших средств кошелек должен повторить этот процесс несколько раз с каждым номиналом. Каждый раз, когда такой процесс завершается, называется "раундом". С каждым раундом PrivateSend становится экспоненциально сложнее определить откуда поступили средства.&lt;/li&gt; &lt;li&gt;Процесс перемешивания выполняется в фоне, без участия пользователя. Когда Вы захотите провести транзакцию, средства уже будут анонимизированы. Дополнительно ждать не требуется.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Ваш кошелек содержит 1000 адресов. Каждое перемешивание использует до 9 из этих адресов. Это означает, что 1000 адресов хватит примерно на 100 перемешиваний. Когда 900 адресов будут уже использованы, Ваш кошелек должен создать новые адреса. Однако, он может сделать это, только если у Вас включены автоматические резервные копии.&lt;br&gt;Соответственно, пользователям с отключенным резервным копированием PrivateSend не доступен. &lt;hr&gt;Дополнительная информация доступна по ссылке &lt;a href="https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://crowdcoinpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>

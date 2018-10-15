@@ -2,7 +2,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-//#define ENABLE_DASH_DEBUG
+//#define ENABLE_CRC_DEBUG
 
 #include "core_io.h"
 #include "governance-classes.h"

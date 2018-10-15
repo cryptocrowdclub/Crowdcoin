@@ -1,7 +1,7 @@
 Crowdcoin Core staging tree 0.12.3
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/dashpay/crowdcoin.svg?branch=master)](https://travis-ci.org/dashpay/crowdcoin) `develop:` [![Build Status](https://travis-ci.org/dashpay/crowdcoin.svg?branch=develop)](https://travis-ci.org/dashpay/crowdcoin/branches)
+`master:` [![Build Status](https://travis-ci.org/crowdcoinpay/crowdcoin.svg?branch=master)](https://travis-ci.org/crowdcoinpay/crowdcoin) `develop:` [![Build Status](https://travis-ci.org/crowdcoinpay/crowdcoin.svg?branch=develop)](https://travis-ci.org/crowdcoinpay/crowdcoin/branches)
 
 https://www.crowdcoin.org
 
@@ -29,7 +29,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/dashpay/crowdcoin/tags) are created to indicate new official,
+[Tags](https://github.com/crowdcoinpay/crowdcoin/tags) are created to indicate new official,
 stable release versions of Crowdcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

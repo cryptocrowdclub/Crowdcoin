@@ -58,8 +58,8 @@ public:
     enum Unit
     {
         CRC,
-        mDASH,
-        uDASH,
+        mCRC,
+        uCRC,
         duffs
     };
 

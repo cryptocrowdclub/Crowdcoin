@@ -8,6 +8,6 @@ Comment[tr]=Crowdcoin, eşten eşe kriptografik sanal para birimi
 Exec=crowdcoin-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
+Icon=crowdcoin128
 MimeType=x-scheme-handler/crowdcoin;
 Categories=Office;Finance;

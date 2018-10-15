@@ -7,9 +7,9 @@ User=crowdcoinbrain
 Group=crowdcoinbrain
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/crowdcoinbrain/crowdcoin.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/crowdcoind/crowdcoind.pid
+ExecStart=/usr/bin/crowdcoind -daemon -pid=/var/lib/crowdcoind/crowdcoind.pid \
+-conf=/etc/crowdcoinbrain/crowdcoin.conf -datadir=/var/lib/crowdcoind -disablewallet
 
 Restart=always
 PrivateTmp=true
