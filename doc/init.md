@@ -105,17 +105,17 @@ Copy crowdcoind.init to /etc/init.d/crowdcoind. Test by running `service crowdco
 
 Using this script, you can adjust the path and flags to the crowdcoind program by
 setting the CRCD and FLAGS environment variables in the file
-/etc/sysconfig/dashd. You can also use the DAEMONOPTS environment variable here.
+/etc/sysconfig/crowdcoind. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X
 
-Copy org.crowdcoin.dashd.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.crowdcoin.dashd.plist`.
+Copy org.crowdcoin.crowdcoind.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.crowdcoin.crowdcoind.plist`.
 
-This Launch Agent will cause dashd to start whenever the user logs in.
+This Launch Agent will cause crowdcoind to start whenever the user logs in.
 
-NOTE: This approach is intended for those wanting to run dashd as the current user.
-You will need to modify org.crowdcoin.dashd.plist if you intend to use it as a
+NOTE: This approach is intended for those wanting to run crowdcoind as the current user.
+You will need to modify org.crowdcoin.crowdcoind.plist if you intend to use it as a
 Launch Daemon with a dedicated crowdcoinbrain user.
 
 5. Auto-respawn
