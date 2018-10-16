@@ -1160,6 +1160,8 @@ case $host in
    ;;
 esac
 
+AC_CONFIG_LINKS([src/crypto/md_helper.c:src/crypto/md_helper.c])
+
 dnl Replace the BUILDDIR path with the correct Windows path if compiling on Native Windows
 case ${OS} in
    *Windows*)
