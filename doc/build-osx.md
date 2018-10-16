@@ -57,15 +57,15 @@ Crowdcoin Core is now available at `./src/crowdcoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
-    echo -e "rpcuser=crowdcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/CrowdcoinCore/crowdcoin.conf"
+    echo -e "rpcuser=crowdcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/CrowdcoinBrain/crowdcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/CrowdcoinCore/crowdcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/CrowdcoinBrain/crowdcoin.conf"
 
 The first time you run crowdcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/CrowdcoinCore/debug.log
+    tail -f $HOME/Library/Application\ Support/CrowdcoinBrain/debug.log
 
 Other commands:
 -------

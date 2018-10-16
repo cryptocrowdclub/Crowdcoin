@@ -555,13 +555,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CrowdcoinCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CrowdcoinCore
-    // Mac: ~/Library/Application Support/CrowdcoinCore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\CrowdcoinBrain
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\CrowdcoinBrain
+    // Mac: ~/Library/Application Support/CrowdcoinBrain
     // Unix: ~/.crowdcoinbrain
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "CrowdcoinCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "CrowdcoinBrain";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -571,7 +571,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/CrowdcoinCore";
+    return pathRet / "Library/Application Support/CrowdcoinBrain";
 #else
     // Unix
     return pathRet / ".crowdcoinbrain";

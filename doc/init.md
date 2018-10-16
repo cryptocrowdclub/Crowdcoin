@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/crowdcoind`
-Configuration file:  `~/Library/Application Support/CrowdcoinCore/crowdcoin.conf`
-Data directory:      `~/Library/Application Support/CrowdcoinCore`
-Lock file:           `~/Library/Application Support/CrowdcoinCore/.lock`
+Configuration file:  `~/Library/Application Support/CrowdcoinBrain/crowdcoin.conf`
+Data directory:      `~/Library/Application Support/CrowdcoinBrain`
+Lock file:           `~/Library/Application Support/CrowdcoinBrain/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
