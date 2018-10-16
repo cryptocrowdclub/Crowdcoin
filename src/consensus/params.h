@@ -44,6 +44,9 @@ struct BIP9Deployment {
 struct Params {
     uint256 hashGenesisBlock;
     uint256 hashDevnetGenesisBlock;
+    int nBurnStartBlock; //LP added burn rate
+    int nBurnPercentage; //LP addded burn rate
+
     int nSubsidyHalvingInterval;
     int nMasternodePaymentsStartBlock;
     int nMasternodePaymentsIncreaseBlock;
