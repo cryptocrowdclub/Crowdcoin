@@ -16,7 +16,7 @@ class CConnman;
 static const int DENOMS_COUNT_MAX                   = 100;
 
 static const int MIN_PRIVATESEND_ROUNDS             = 2;
-static const long int MIN_PRIVATESEND_AMOUNT             = 2;
+static const int MIN_PRIVATESEND_AMOUNT             = 2;
 static const int MIN_PRIVATESEND_LIQUIDITY          = 0;
 static const int MAX_PRIVATESEND_ROUNDS             = 16;
 static const int64_t  MAX_PRIVATESEND_AMOUNT        = MAX_MONEY / COIN;
