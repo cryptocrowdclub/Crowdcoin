@@ -35,8 +35,8 @@
       <file leaf-file-name="Makefile.am" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Makefile.am">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="269">
+              <caret line="235" column="37" lean-forward="true" selection-start-line="235" selection-start-column="37" selection-end-line="235" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -48,9 +48,9 @@
       <find>crowdcoincore</find>
       <find>git</find>
       <find>Dash</find>
-      <find>dash</find>
       <find>DASH</find>
       <find>1000 CRC</find>
+      <find>dash</find>
     </findStrings>
     <replaceStrings>
       <replace>Crowdcoin</replace>
@@ -152,12 +152,12 @@
       <workItem from="1539638626013" duration="99000" />
       <workItem from="1539640729300" duration="634000" />
       <workItem from="1539641378067" duration="367000" />
-      <workItem from="1539669729655" duration="1189000" />
+      <workItem from="1539669729655" duration="2167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2289000" />
+    <option name="totallyTimeSpent" value="3267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="7" />
@@ -234,8 +234,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Makefile.am">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        <state relative-caret-position="269">
+          <caret line="235" column="37" lean-forward="true" selection-start-line="235" selection-start-column="37" selection-end-line="235" selection-end-column="37" />
         </state>
       </provider>
     </entry>
