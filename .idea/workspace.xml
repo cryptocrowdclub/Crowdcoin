@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb2f3bf-85a8-4656-a862-8fa94a066f5e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consensus/params.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/consensus/params.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -45,31 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sph_whirlpool.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crypto/sph_whirlpool.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51660">
-              <caret line="3444" selection-start-line="3444" selection-end-line="3444" />
-              <folding>
-                <element signature="e#2189#2208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configure.ac" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configure.ac">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17445">
-              <caret line="1163" selection-start-line="1163" selection-end-line="1163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="copyright_header.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contrib/devtools/copyright_header.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="465">
               <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
             </state>
           </provider>
@@ -78,7 +56,7 @@
       <file leaf-file-name="params.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/consensus/params.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="315">
               <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
             </state>
           </provider>
@@ -87,8 +65,35 @@
       <file leaf-file-name="init.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/init.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="899" column="69" selection-start-line="899" selection-start-column="69" selection-end-line="899" selection-end-column="69" />
+            <state relative-caret-position="135">
+              <caret line="1859" column="120" selection-start-line="1859" selection-start-column="120" selection-end-line="1859" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privatesend-client.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/privatesend-client.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="464" column="8" selection-start-line="464" selection-start-column="8" selection-end-line="464" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instantx.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instantx.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -96,7 +101,7 @@
       <file leaf-file-name="utilstrencodings.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utilstrencodings.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="8250">
               <caret line="550" column="20" selection-start-line="550" selection-start-column="12" selection-end-line="550" selection-end-column="20" />
             </state>
           </provider>
@@ -105,18 +110,6 @@
       <file leaf-file-name="consensus.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/consensus/consensus.h">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="sph_whirlpool.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crypto/sph_whirlpool.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" selection-start-line="63" selection-end-line="64" selection-end-column="3" />
-              <folding>
-                <element signature="e#2241#2260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -242,14 +235,17 @@
       <workItem from="1539641378067" duration="367000" />
       <workItem from="1539669729655" duration="2167000" />
       <workItem from="1539676042882" duration="350000" />
+      <workItem from="1539678200088" duration="272000" />
+      <workItem from="1539682105655" duration="362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3682000" />
+    <option name="totallyTimeSpent" value="4316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="742" extended-state="6" />
+    <frame x="-1" y="-1" width="1368" height="747" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -296,9 +292,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51660">
           <caret line="3444" selection-start-line="3444" selection-end-line="3444" />
-          <folding>
-            <element signature="e#2189#2208#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure.ac">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17445">
+          <caret line="1163" selection-start-line="1163" selection-end-line="1163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/devtools/copyright_header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consensus/params.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilstrencodings.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8250">
+          <caret line="550" column="20" selection-start-line="550" selection-start-column="12" selection-end-line="550" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consensus/consensus.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crypto/sph_whirlpool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" selection-start-line="63" selection-end-line="64" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/init.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13485">
+          <caret line="899" column="69" selection-start-line="899" selection-start-column="69" selection-end-line="899" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile.am">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3525">
+          <caret line="235" column="37" selection-start-line="235" selection-start-column="37" selection-end-line="235" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crypto/sph_whirlpool.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51660">
+          <caret line="3444" selection-start-line="3444" selection-end-line="3444" />
         </state>
       </provider>
     </entry>
@@ -313,9 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" selection-start-line="63" selection-end-line="64" selection-end-column="3" />
-          <folding>
-            <element signature="e#2241#2260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -430,9 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" selection-start-line="63" selection-end-line="64" selection-end-column="3" />
-          <folding>
-            <element signature="e#2241#2260#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,9 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51660">
           <caret line="3444" selection-start-line="3444" selection-end-line="3444" />
-          <folding>
-            <element signature="e#2189#2208#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -450,13 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17445">
           <caret line="1163" selection-start-line="1163" selection-end-line="1163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contrib/devtools/copyright_header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -513,24 +556,52 @@
     <entry file="file://$PROJECT_DIR$/src/consensus/consensus.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilstrencodings.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8250">
+          <caret line="550" column="20" selection-start-line="550" selection-start-column="12" selection-end-line="550" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instantx.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/devtools/copyright_header.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/consensus/params.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="315">
           <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilstrencodings.cpp">
+    <entry file="file://$PROJECT_DIR$/src/util.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="550" column="20" selection-start-line="550" selection-start-column="12" selection-end-line="550" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="464" column="8" selection-start-line="464" selection-start-column="8" selection-end-line="464" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/privatesend-client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/init.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="899" column="69" selection-start-line="899" selection-start-column="69" selection-end-line="899" selection-end-column="69" />
+        <state relative-caret-position="135">
+          <caret line="1859" column="120" selection-start-line="1859" selection-start-column="120" selection-end-line="1859" selection-end-column="120" />
         </state>
       </provider>
     </entry>
