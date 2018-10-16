@@ -857,11 +857,11 @@
         <translation>Kies een privacyniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 CRC</source>
         <translation>Gebruik 2 verschillende masternodes om tot en met  100 Crowdcoin te mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 CRC</source>
         <translation>Gebruik 8 verschillende masternodes om tot en met  1000 Crowdcoin te mixen</translation>
     </message>
     <message>
@@ -869,16 +869,16 @@
         <translation>Gebruik 16 verschillende masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000000 CRC</source>
         <translation>Deze optie is het snelst en kost ongeveer ~0.025 D om 1000 D te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Deze optie is relatief snel en zal ongeveer 0.05 CRC kosten om 1000 CRC te anonimiseren </translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000000 CRC</source>
+        <translation>Deze optie is relatief snel en zal ongeveer 0.05 CRC kosten om 1000000 CRC te anonimiseren </translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC per 1000 CRC die je anonimiseert.</translation>
+        <source>0.1 CRC per 1000000 CRC you anonymize.</source>
+        <translation>0.1 CRC per 1000000 CRC die je anonimiseert.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>

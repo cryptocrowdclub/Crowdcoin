@@ -857,28 +857,28 @@
         <translation>Selezionare il livello di privacy</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Usa 2 masternode separati  per mixare fino al 1000 CRC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 CRC</source>
+        <translation>Usa 2 masternode separati  per mixare fino al 1000000 CRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Usa 8 masternode separati per mixare fino al 1000 CRC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 CRC</source>
+        <translation>Usa 8 masternode separati per mixare fino al 1000000 CRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Usa 16 masternode separati</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000000 CRC</source>
         <translation>Questa opzione è la più veloce e ti costerà ~0.025CRC circa per anonimizzare 1000CRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000000 CRC</source>
         <translation>Questa opzione è moderatamente veloce e costerà 0.05CRC circa per anonimizzare 1000CRC</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC ogni 1000 CRC che anonimizzi.</translation>
+        <source>0.1 CRC per 1000000 CRC you anonymize.</source>
+        <translation>0.1 CRC ogni 1000000 CRC che anonimizzi.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>

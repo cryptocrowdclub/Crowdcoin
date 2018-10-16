@@ -857,11 +857,11 @@
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 CRC</source>
         <translation>Käytä 2 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 CRC</source>
         <translation>Käytä 8 erillistä masternodea sekoittaaksesi varoja</translation>
     </message>
     <message>
@@ -869,16 +869,16 @@
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 CRC kun anonymisoidaan 1000 CRC</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000000 CRC</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 CRC kun anonymisoidaan 1000000 CRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 CRC kun anonymisoidaan 1000 CRC</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000000 CRC</source>
+        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 CRC kun anonymisoidaan 1000000 CRC</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC maksu per 1000 CRC jonka anonymisoit.</translation>
+        <source>0.1 CRC per 1000000 CRC you anonymize.</source>
+        <translation>0.1 CRC maksu per 1000000 CRC jonka anonymisoit.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>

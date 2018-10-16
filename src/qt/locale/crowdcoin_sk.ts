@@ -857,28 +857,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 CRC</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 CRC</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000000 CRC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 CRC</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 CRC</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000000 CRC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 CRC pre anonimizáciu 1000 CRC</translation>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000000 CRC</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 CRC pre anonimizáciu 1000000 CRC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 CRC pre anonimizáciu 1000 CRC</translation>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000000 CRC</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 CRC pre anonimizáciu 1000000 CRC</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
-        <translation>0.1 CRC za 1000 CRC ktoré spravíte anonymnými.</translation>
+        <source>0.1 CRC per 1000000 CRC you anonymize.</source>
+        <translation>0.1 CRC za 1000000 CRC ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>

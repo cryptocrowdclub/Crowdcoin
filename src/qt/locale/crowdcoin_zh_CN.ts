@@ -857,11 +857,11 @@
         <translation>请选择隐私等级。</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CRC</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000000 CRC</source>
         <translation>使用2个独立的主节点来混合最多1000个达世币</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CRC</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000000 CRC</source>
         <translation>使用8个独立的主节点来混合最多1000个达世币</translation>
     </message>
     <message>
@@ -869,15 +869,15 @@
         <translation>使用16个独立主节点</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000 CRC</source>
+        <source>This option is the quickest and will cost about ~0.025 CRC to anonymize 1000000 CRC</source>
         <translation>此选项为最快速度，需要支付约0.025达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000 CRC</source>
+        <source>This option is moderately fast and will cost about 0.05 CRC to anonymize 1000000 CRC</source>
         <translation>此选项为一般速度，需要支付约0.05达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
-        <source>0.1 CRC per 1000 CRC you anonymize.</source>
+        <source>0.1 CRC per 1000000 CRC you anonymize.</source>
         <translation>0.1达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
