@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb2f3bf-85a8-4656-a862-8fa94a066f5e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dcb2f3bf-85a8-4656-a862-8fa94a066f5e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,16 +45,20 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dash</find>
-      <find>DASH</find>
       <find>crowdcoincore</find>
       <find>git</find>
       <find>Dash</find>
+      <find>dash</find>
+      <find>DASH</find>
+      <find>1000 CRC</find>
     </findStrings>
     <replaceStrings>
-      <replace>crowdcoin</replace>
       <replace>Crowdcoin</replace>
       <replace>crowdcoinbrain</replace>
+      <replace>Crowdcoinbrain</replace>
+      <replace>crowdcoin</replace>
+      <replace>CRC</replace>
+      <replace>1000000 CRC</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -150,12 +152,12 @@
       <workItem from="1539638626013" duration="99000" />
       <workItem from="1539640729300" duration="634000" />
       <workItem from="1539641378067" duration="367000" />
-      <workItem from="1539669729655" duration="250000" />
+      <workItem from="1539669729655" duration="1189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1350000" />
+    <option name="totallyTimeSpent" value="2289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="7" />
@@ -164,6 +166,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -177,7 +180,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
