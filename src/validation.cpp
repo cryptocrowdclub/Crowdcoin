@@ -541,7 +541,7 @@ bool CheckTransaction(const CTransaction& tx, CValidationState &state)
 
     if (tx.IsCoinBase())
     {
-        if (tx.vin[0].scriptSig.size() < 2 || tx.vin[0].scriptSig.size() > 100)
+        if (tx.vin[0].scriptSig.size() < 2 || tx.vin[0].scriptSig.size() > 1000)
             return state.DoS(100, false, REJECT_INVALID, "bad-cb-length");
     }
     else
@@ -4184,7 +4184,7 @@ bool InitBlockIndex(const CChainParams& chainparams)
                 assert(fProcessDevnetGenesisBlock);
             }
 
-            // Force a chainstate write so that when we VerifyDB in a moment, it doesn't check stale data
+            // Force a chain-state write so that when we VerifyDB in a moment, it doesn't check stale data
             return FlushStateToDisk(state, FLUSH_STATE_ALWAYS);
         } catch (const std::runtime_error& e) {
             return error("%s: failed to initialize block database: %s", __func__, e.what());

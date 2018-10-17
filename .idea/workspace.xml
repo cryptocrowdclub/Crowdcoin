@@ -13,8 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dcb2f3bf-85a8-4656-a862-8fa94a066f5e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/crowdcoin.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/crowdcoin.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/validation.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +25,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="validation.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="validation.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/validation.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/primitives/transaction.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="803" column="37" lean-forward="true" selection-start-line="803" selection-start-column="37" selection-end-line="803" selection-end-column="37" />
+            <state relative-caret-position="4215">
+              <caret line="281" selection-start-line="281" selection-end-line="281" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -48,26 +60,31 @@
       <file leaf-file-name="wallet.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wallet/wallet.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75330">
-              <caret line="5022" column="16" selection-start-line="5022" selection-start-column="16" selection-end-line="5022" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="3849" column="32" lean-forward="true" selection-start-line="3849" selection-start-column="32" selection-end-line="3849" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compressor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compressor.h">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="init.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/init.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="1729" lean-forward="true" selection-start-line="1729" selection-end-line="1729" />
+            <state relative-caret-position="25935">
+              <caret line="1729" selection-start-line="1729" selection-end-line="1729" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8475">
-              <caret line="565" column="47" selection-start-line="565" selection-start-column="18" selection-end-line="565" selection-end-column="47" />
+            <state relative-caret-position="165">
+              <caret line="261" column="10" lean-forward="true" selection-start-line="261" selection-start-column="10" selection-end-line="261" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -81,38 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spork.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spork.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spork.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spork.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="masternode-payments.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chainparams.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chainparams.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -138,14 +128,15 @@
       <find>nMasternodePaymentsStartBlock</find>
       <find>consensus.nMasternodePaymentsStartBlock = 2500</find>
       <find>fillpa</find>
-      <find>SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT</find>
       <find>fLiteMode</find>
       <find>InvalidChainFound</find>
       <find>InvalidBlockFound</find>
       <find>mapAddressBook.size()</find>
       <find>InitLoadWallet</find>
-      <find>bad-cb-length</find>
       <find>ConnectBlock:</find>
+      <find>spork</find>
+      <find>bad-cb-length</find>
+      <find>SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT</find>
     </findStrings>
     <replaceStrings>
       <replace>Crowdcoin</replace>
@@ -169,9 +160,11 @@
         <option value="$PROJECT_DIR$/src/utilstrencodings.cpp" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/doc/init.md" />
-        <option value="$PROJECT_DIR$/src/chainparams.cpp" />
         <option value="$PROJECT_DIR$/src/spork.cpp" />
         <option value="$PROJECT_DIR$/src/init.cpp" />
+        <option value="$PROJECT_DIR$/src/validation.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/chainparams.cpp" />
       </list>
     </option>
   </component>
@@ -184,7 +177,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="5" />
     <option name="width" value="1255" />
@@ -217,7 +211,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compile/CrowdcoinBrainWallet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dash" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -262,12 +256,13 @@
       <workItem from="1539734562911" duration="775000" />
       <workItem from="1539735659450" duration="376000" />
       <workItem from="1539736591288" duration="686000" />
-      <workItem from="1539756922105" duration="270000" />
+      <workItem from="1539756922105" duration="1117000" />
+      <workItem from="1539758555756" duration="1939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7672000" />
+    <option name="totallyTimeSpent" value="10458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="747" extended-state="6" />
@@ -276,12 +271,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5018615" side_tool="true" weight="0.3534202" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3534202" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4981385" visible="true" weight="0.35179153" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -289,9 +284,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32899022" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,20 +296,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/crypto/sph_whirlpool.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51660">
-          <caret line="3444" selection-start-line="3444" selection-end-line="3444" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configure.ac">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17445">
-          <caret line="1163" selection-start-line="1163" selection-end-line="1163" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crypto/sph_whirlpool.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -492,7 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Makefile.am">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3525">
@@ -578,20 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8475">
-          <caret line="565" column="47" selection-start-line="565" selection-start-column="18" selection-end-line="565" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rpc/mining.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11010">
-          <caret line="734" column="1" selection-start-line="734" selection-start-column="1" selection-end-line="734" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spork.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -613,6 +579,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/rpc/mining.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11010">
+          <caret line="734" column="1" selection-start-line="734" selection-start-column="1" selection-end-line="734" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/init.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25935">
+          <caret line="1729" selection-start-line="1729" selection-end-line="1729" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/validation.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primitives/transaction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4215">
+          <caret line="281" selection-start-line="281" selection-end-line="281" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa/rpc-tests/p2p-fullblocktest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5325">
@@ -622,22 +619,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wallet/wallet.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75330">
-          <caret line="5022" column="16" selection-start-line="5022" selection-start-column="16" selection-end-line="5022" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="3849" column="32" lean-forward="true" selection-start-line="3849" selection-start-column="32" selection-end-line="3849" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/init.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="1729" lean-forward="true" selection-start-line="1729" selection-end-line="1729" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/compressor.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/validation.cpp">
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="803" column="37" lean-forward="true" selection-start-line="803" selection-start-column="37" selection-end-line="803" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="261" column="10" lean-forward="true" selection-start-line="261" selection-start-column="10" selection-end-line="261" selection-end-column="10" />
         </state>
       </provider>
     </entry>
