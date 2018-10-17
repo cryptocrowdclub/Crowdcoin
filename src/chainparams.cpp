@@ -139,7 +139,7 @@ public:
         consensus.nSubsidyHalvingInterval = 1; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
         consensus.nBurnStartBlock = 125000; // begin of the burn a % of the fees
         consensus.nBurnPercentage = 100 ; // percentage expressed over 1000
-        consensus.nMasternodePaymentsStartBlock = 2500; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nMasternodePaymentsStartBlock = 25000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 62500; // actual historical value
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
         consensus.nInstantSendConfirmationsRequired = 6;
@@ -280,7 +280,7 @@ public:
         consensus.nSubsidyHalvingInterval = 1; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
         consensus.nBurnStartBlock = 125000; // begin of the burn a % of the fees
         consensus.nBurnPercentage = 100 ; // percentage expressed over 1000
-        consensus.nMasternodePaymentsStartBlock = 2500; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nMasternodePaymentsStartBlock = 25000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 52500; // actual historical value
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
         consensus.nInstantSendConfirmationsRequired = 6;
@@ -421,7 +421,7 @@ public:
         consensus.nSubsidyHalvingInterval = 1; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
         consensus.nBurnStartBlock = 12500; // begin of the burn a % of the fees
         consensus.nBurnPercentage = 100 ; // percentage expressed over 1000
-        consensus.nMasternodePaymentsStartBlock = 2500; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nMasternodePaymentsStartBlock = 25000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 52500; // actual historical value
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
         consensus.nInstantSendConfirmationsRequired = 6;
@@ -563,7 +563,7 @@ public:
         consensus.nSubsidyHalvingInterval = 1; // Note: actual number of blocks per calendar year with DGW v3 is ~200700 (for example 449750 - 249050)
         consensus.nBurnStartBlock = 12500; // begin of the burn a % of the fees
         consensus.nBurnPercentage = 100 ; // percentage expressed over 1000
-        consensus.nMasternodePaymentsStartBlock = 2500; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nMasternodePaymentsStartBlock = 25000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 52500; // actual historical value
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // 17280 - actual historical value
         consensus.nInstantSendConfirmationsRequired = 6;
