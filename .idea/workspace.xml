@@ -11,7 +11,38 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dcb2f3bf-85a8-4656-a862-8fa94a066f5e" name="Default" comment="" />
+    <list default="true" id="dcb2f3bf-85a8-4656-a862-8fa94a066f5e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/crowdcoin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/crowdcoin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/crowdcoinstrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/crowdcoinstrings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/darksendconfig.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/darksendconfig.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_bg.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_bg.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_es.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_es.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_fr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_it.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_it.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_nl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_nl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pt_BR.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_pt_BR.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_ru.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_ru.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_sk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_sk.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_sv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_sv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_vi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_vi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_CN.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/crowdcoin_zh_TW.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/overviewpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/overviewpage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/test_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/walletmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletmodel.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +57,7 @@
       <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="3180">
               <caret line="212" column="55" selection-start-line="212" selection-start-column="55" selection-end-line="212" selection-end-column="55" />
             </state>
           </provider>
@@ -35,7 +66,7 @@
       <file leaf-file-name="validation.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/validation.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="15">
               <caret line="1293" column="52" selection-start-line="1293" selection-start-column="52" selection-end-line="1293" selection-end-column="52" />
             </state>
           </provider>
@@ -131,7 +162,7 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="5" />
     <option name="width" value="1255" />
@@ -212,6 +243,7 @@
       <workItem from="1539756922105" duration="1117000" />
       <workItem from="1539758555756" duration="1939000" />
       <workItem from="1539964281423" duration="363000" />
+      <workItem from="1539969852737" duration="216000" />
     </task>
     <servers />
   </component>
@@ -219,16 +251,17 @@
     <option name="totallyTimeSpent" value="11250000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="742" extended-state="7" />
+    <frame x="-1" y="-1" width="1368" height="747" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5018615" side_tool="true" weight="0.3534202" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026061" side_tool="true" visible="true" weight="0.35016286" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4981385" visible="true" weight="0.35179153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4973939" visible="true" weight="0.35016286" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -239,7 +272,6 @@
       <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,14 +611,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="3180">
           <caret line="212" column="55" selection-start-line="212" selection-start-column="55" selection-end-line="212" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/validation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="15">
           <caret line="1293" column="52" selection-start-line="1293" selection-start-column="52" selection-end-line="1293" selection-end-column="52" />
         </state>
       </provider>
