@@ -241,7 +241,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = false; //change after mining
+        fMiningRequiresPeers = true; 
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = true;
@@ -255,7 +255,7 @@ public:
 
         checkpointData = (CCheckpointData) {
                 boost::assign::map_list_of
-                        (  0, uint256S("0x0000000f249e4ff11e2f46716644b1e13b9837d398c0e73a200fa0fd0718f628"))
+                        (  0, uint256S("0x0000006f3f7f60bf9fac87e30384c52f7cf7a65bf468f018cab8507e380af8c7"))
 
         };
 
@@ -396,7 +396,7 @@ public:
 
         checkpointData = (CCheckpointData) {
                     boost::assign::map_list_of
-                            (  0, uint256S("0x000000e7de6057a916188cdb6c9cbb7bcac6c36f80e8fb72a5ee74a7e59b7beb"))
+                            (  0, uint256S("0x000000be89e7ceb515258698012f4d0ac7846980969515fdf2771cda7e0eae68"))
 
         };
 
@@ -537,7 +537,7 @@ public:
 
         checkpointData = (CCheckpointData) {
                     boost::assign::map_list_of
-                            (  0, uint256S("0x000000f934065c0b0a0917e3571645913509d8fbd0020b9aace48a70c4fcc8d6"))
+                            (  0, uint256S("0x0000007fb28818dafc7e410b33792647d1ba73f29f52c75bd09399c2fc370700"))
 
         };
 

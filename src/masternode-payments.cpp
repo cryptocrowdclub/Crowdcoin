@@ -201,9 +201,11 @@ void FillBlockPayments(CMutableTransaction& txNew, int nBlockHeight, CAmount blo
     }
 
     // FILL BLOCK PAYEE WITH MASTERNODE PAYMENT OTHERWISE
-    mnpayments.FillBlockPayee(txNew, nBlockHeight, blockReward, txoutMasternodeRet);
-    LogPrint("mnpayments", "FillBlockPayments -- nBlockHeight %d blockReward %lld txoutMasternodeRet %s txNew %s",
-                            nBlockHeight, blockReward, txoutMasternodeRet.ToString(), txNew.ToString());
+    if(sporkManager.IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) {
+        mnpayments.FillBlockPayee(txNew, nBlockHeight, blockReward, txoutMasternodeRet);
+        LogPrint("mnpayments", "FillBlockPayments -- nBlockHeight %d blockReward %lld txoutMasternodeRet %s txNew %s",
+                 nBlockHeight, blockReward, txoutMasternodeRet.ToString(), txNew.ToString());
+    }
 }
 
 std::string GetRequiredPaymentsString(int nBlockHeight)
