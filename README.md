@@ -1,7 +1,7 @@
 Crowdcoin Core staging tree 0.12.3
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/crowdcoinpay/crowdcoin.svg?branch=master)](https://travis-ci.org/crowdcoinpay/crowdcoin) `develop:` [![Build Status](https://travis-ci.org/crowdcoinpay/crowdcoin.svg?branch=develop)](https://travis-ci.org/crowdcoinpay/crowdcoin/branches)
+`master:` [![Build Status](https://travis-ci.com/crowdcoinChain/CrowdcoinBrainWallet.svg?branch=master)]
 
 https://www.crowdcoin.org
 
