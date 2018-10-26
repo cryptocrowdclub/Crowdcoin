@@ -858,11 +858,11 @@
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000000 CRC</source>
-        <translation>使用2個獨立的主節點來混合最高達1000達世幣的資金</translation>
+        <translation>使用2個獨立的主節點來混合最高達1000000達世幣的資金</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000000 CRC</source>
-        <translation>使用8個獨立的主節點來混合最高達1000達世幣的資金</translation>
+        <translation>使用8個獨立的主節點來混合最高達1000000達世幣的資金</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -870,15 +870,15 @@
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DASH to anonymize 1000000 CRC</source>
-        <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1000達世幣的費用</translation>
+        <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1000000達世幣的費用</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DASH to anonymize 1000000 CRC</source>
-        <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1000達世幣的費用</translation>
+        <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1000000達世幣的費用</translation>
     </message>
     <message>
         <source>0.1 DASH per 1000000 CRC you anonymize.</source>
-        <translation>每1000達世幣耗費0.1達世幣作為匿名處理費用</translation>
+        <translation>每1000000達世幣耗費0.1達世幣作為匿名處理費用</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
