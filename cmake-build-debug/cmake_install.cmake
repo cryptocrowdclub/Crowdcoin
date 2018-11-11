@@ -1,4 +1,4 @@
-# Install script for directory: /home/pater92/Desktop/CrowdcoinBrainWallet
+# Install script for directory: /home/pater92/Documents/releases/Crowdcoin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pater92/Desktop/CrowdcoinBrainWallet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pater92/Documents/releases/Crowdcoin/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
